@@ -24,7 +24,7 @@ function HeroContent() {
           className="Welcome-box py-[6px] px-[6px] sm:py-[8px] sm:px-[8px] border border-[#7042f88b] opacity-[0.9] flex items-center gap-2"
         >
           <SparklesIcon className="text-[#b49bff] h-4 w-4 sm:h-5 sm:w-5" />
-          <h1 className="Welcome-text text-[11px] sm:text-[13px] md:text-sm">
+          <h1 className=" text-gray-300 text-[11px] sm:text-[13px] md:text-sm">
             Fullstack Developer
           </h1>
         </motion.div>
@@ -81,4 +81,3 @@ function HeroContent() {
 }
 
 export default HeroContent;
-
