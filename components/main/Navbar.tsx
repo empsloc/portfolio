@@ -11,11 +11,11 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="h-auto w-auto flex flex-row items-center">
           <Image
-            src="/NavLogo.png"
+            src="/buriburizaimon.jpg"
             alt="logo"
             width={50}
             height={50}
-            className="cursor-pointer hover:animate-slowspin sm:w-[60px] sm:h-[60px] md:w-[70px] md:h-[70px]"
+            className="cursor-pointer rounded-full p-4 hover:animate-slowspin sm:w-[60px] sm:h-[60px] md:w-[70px] md:h-[70px]"
           />
           <div className="font-bold ml-[10px] hidden md:block text-gray-300 text-sm sm:text-base md:text-lg">
             empsloc
@@ -74,4 +74,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

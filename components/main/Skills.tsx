@@ -14,7 +14,7 @@ function Skills() {
     <section
       style={{ transform: "scale(0.9)" }}
       id="skills"
-      className="flex pb-[200px] sm:pb-[400px] md:pb-[600px] lg:pb-[900px] flex-col items-center justify-center gap-3 h-full relative"
+      className="flex   flex-col items-center justify-center gap-3 h-full relative"
     >
       {/* Background Video */}
       <video

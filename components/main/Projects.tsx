@@ -51,10 +51,11 @@ const Projects = () => {
                   "https://ai-wireframe-to-code-nine.vercel.app/",
                 )
               }
+              className="transition-transform duration-300 hover:scale-105"
             >
               <ProjectCard
                 src="/wireframeToCode.png"
-                title="AI Wireframe to Code"
+                title="WireframeToCode"
                 description="Transform hand-drawn wireframes into production-ready code using AI automation."
               />
             </div>
@@ -65,11 +66,26 @@ const Projects = () => {
               onClick={() =>
                 handleNavigation("https://ai-ide-alpha.vercel.app/")
               }
+              className="transition-transform duration-300 hover:scale-105"
             >
               <ProjectCard
                 src="/aiide.png"
-                title="AI IDE"
+                title="AI-IDE"
                 description="An intelligent online code editor powered by AI to assist with coding and debugging."
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              onClick={() =>
+                handleNavigation("https://pdf-insight-zeta.vercel.app/")
+              }
+              className="transition-transform duration-300 hover:scale-105"
+            >
+              <ProjectCard
+                src="/pdfInsight.png"
+                title="PDF-Insight"
+                description="Create notes along side AI to help you understand contents of your PDF"
               />
             </div>
           </SwiperSlide>
@@ -79,53 +95,40 @@ const Projects = () => {
               onClick={() =>
                 handleNavigation("https://ai-email-template-two.vercel.app/")
               }
+              className="transition-transform duration-300 hover:scale-105"
             >
               <ProjectCard
                 src="/emailTemplate.png"
-                title="AI Email Template"
+                title="EmailTemp"
                 description="Generate professional and personalized email templates instantly with AI."
               />
             </div>
           </SwiperSlide>
-
-          <SwiperSlide>
-            <div
-              onClick={() =>
-                handleNavigation("https://ai-logo-green.vercel.app/")
-              }
-            >
-              <ProjectCard
-                src="/aiLogo.png"
-                title="AI Logo Maker"
-                description="Create stunning and unique logos tailored to your brand using AI."
-              />
-            </div>
-          </SwiperSlide>
-
           <SwiperSlide>
             <div
               onClick={() =>
                 handleNavigation("https://ai-forms-umber.vercel.app/")
               }
+              className="transition-transform duration-300 hover:scale-105"
             >
               <ProjectCard
                 src="/aiForm.png"
-                title="AI Form Generator"
+                title="AutoForms"
                 description="Easily generate and customize forms with AI assistance for faster workflows."
               />
             </div>
           </SwiperSlide>
-
           <SwiperSlide>
             <div
               onClick={() =>
-                handleNavigation("https://ai-content-gen-psi.vercel.app/")
+                handleNavigation("https://ai-logo-green.vercel.app/")
               }
+              className="transition-transform duration-300 hover:scale-105"
             >
               <ProjectCard
-                src="/aiContent.png"
-                title="AI Content Generator"
-                description="Generate high-quality blog posts, articles, and marketing content with AI."
+                src="/aiLogo.png"
+                title="LogoGen"
+                description="Create stunning and unique logos tailored to your brand using AI."
               />
             </div>
           </SwiperSlide>

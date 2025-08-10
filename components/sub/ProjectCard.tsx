@@ -16,7 +16,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
           src={src}
           alt={title}
           fill
-          className="object-cover"
+          className="object-contain md:object-cover"
         />
       </div>
 
