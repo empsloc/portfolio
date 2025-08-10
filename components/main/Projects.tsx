@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="flex z-[100] flex-col items-center justify-center py-20"
+      className="flex z-[40] flex-col items-center justify-center py-20"
     >
       <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
@@ -45,7 +45,13 @@ const Projects = () => {
           }}
         >
           <SwiperSlide>
-            <div onClick={() => handleNavigation("https://ai-wireframe-to-code-nine.vercel.app/")}>
+            <div
+              onClick={() =>
+                handleNavigation(
+                  "https://ai-wireframe-to-code-nine.vercel.app/",
+                )
+              }
+            >
               <ProjectCard
                 src="/wireframeToCode.png"
                 title="AI Wireframe to Code"
@@ -55,7 +61,11 @@ const Projects = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div onClick={() => handleNavigation("https://ai-ide-alpha.vercel.app/")}>
+            <div
+              onClick={() =>
+                handleNavigation("https://ai-ide-alpha.vercel.app/")
+              }
+            >
               <ProjectCard
                 src="/aiide.png"
                 title="AI IDE"
@@ -65,7 +75,11 @@ const Projects = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div onClick={() => handleNavigation("https://ai-email-template-two.vercel.app/")}>
+            <div
+              onClick={() =>
+                handleNavigation("https://ai-email-template-two.vercel.app/")
+              }
+            >
               <ProjectCard
                 src="/emailTemplate.png"
                 title="AI Email Template"
@@ -75,7 +89,11 @@ const Projects = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div onClick={() => handleNavigation("https://ai-logo-green.vercel.app/")}>
+            <div
+              onClick={() =>
+                handleNavigation("https://ai-logo-green.vercel.app/")
+              }
+            >
               <ProjectCard
                 src="/aiLogo.png"
                 title="AI Logo Maker"
@@ -85,7 +103,11 @@ const Projects = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div onClick={() => handleNavigation("https://ai-forms-umber.vercel.app/")}>
+            <div
+              onClick={() =>
+                handleNavigation("https://ai-forms-umber.vercel.app/")
+              }
+            >
               <ProjectCard
                 src="/aiForm.png"
                 title="AI Form Generator"
@@ -95,7 +117,11 @@ const Projects = () => {
           </SwiperSlide>
 
           <SwiperSlide>
-            <div onClick={() => handleNavigation("https://ai-content-gen-psi.vercel.app/")}>
+            <div
+              onClick={() =>
+                handleNavigation("https://ai-content-gen-psi.vercel.app/")
+              }
+            >
               <ProjectCard
                 src="/aiContent.png"
                 title="AI Content Generator"
