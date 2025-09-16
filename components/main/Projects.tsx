@@ -112,13 +112,13 @@ const Projects = () => {
               className="transition-transform duration-300 hover:scale-105"
             >
               <ProjectCard
-                src="/aiForm.png"
+                src="/forms.png"
                 title="AutoForms"
                 description="Easily generate and customize forms with AI assistance for faster workflows."
               />
             </div>
           </SwiperSlide>
-          <SwiperSlide>
+          {/* <SwiperSlide>
             <div
               onClick={() =>
                 handleNavigation("https://ai-logo-green.vercel.app/")
@@ -131,7 +131,7 @@ const Projects = () => {
                 description="Create stunning and unique logos tailored to your brand using AI."
               />
             </div>
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
       </div>
     </section>
